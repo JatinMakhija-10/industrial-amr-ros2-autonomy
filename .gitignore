@@ -1,0 +1,43 @@
+﻿# Large CAD source files (use cad/models STEP exports instead)
+*.f3z
+*.f3d
+Design 2.f3z
+
+# STEP files in root (keep only cad/ organised ones)
+Design 1.step
+Design 1.f3z
+
+# Personal / internal documents
+*.docx
+*.xlsx
+*.zip
+*Certificate*.pdf
+*certificate*.pdf
+*offer*letter*
+*Jatin*Makhija*Offer*
+*Jatin*Makhija*Certificate*
+
+# Build artifacts
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+*.pyc
+__pycache__/
+
+# KiCad auto-generated
+*.kicad_prl
+fp-info-cache
+AMR_ElectronicDIa-backups/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Large binary CAD files (>5MB) - share via Google Drive / OneDrive
+*.step
+*.stl
+cad/fusion360/
+
